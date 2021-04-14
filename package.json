@@ -15,7 +15,7 @@
   },
   "scripts": {
     "prestart": "npm install",
-    "devStart": "react-scripts start",
+    "start": "react-scripts start",
     "pretest": "npm install",
     "test": "rm -rf ./junit.xml && ./node_modules/.bin/react-scripts test --verbose --env=jsdom --testResultsProcessor ./node_modules/jest-junit"
   },
